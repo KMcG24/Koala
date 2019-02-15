@@ -1,0 +1,71 @@
+body {
+  background-color: blue;
+}
+/* head */
+/* layering  */
+
+.head {
+  display: flex;
+
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  border-radius: 50%;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 200px;
+  position: relative;
+}
+
+/* nose */
+#nose {
+  display: flex;
+  width: 100px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 50px / 100px;
+  right: 50%;
+  transform: translate(50%);
+  position: absolute;
+  /* position: */
+  /* z-index: 1; */
+}
+
+/* hair */
+#leftHair {
+  display: flex;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px gray;
+}
+
+#rightHair {
+  display: flex;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px gray;
+}
+
+/* eyes */
+#eyeWhiteRight {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background: black;
+  border-radius: 50%;
+  border-color: white;
+}
+/* make a massive white border with a black circle and then don't have to make pupils */
+
+#eyeWhiteLeft {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background: black;
+  border-radius: 50%;
+  border-color: white;
+}
